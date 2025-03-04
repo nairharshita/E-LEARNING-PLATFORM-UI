@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile | E-Learning Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-pink-300 to-purple-600">
+
+    <!-- Navbar -->
+    <nav class="bg-pink-700 text-white p-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="/" class="text-3xl font-bold text-white hover:text-yellow-300 transition duration-300">E-Learning</a>
+            <div>
+                <a href="/courses" class="mr-6 text-lg hover:text-yellow-300 transition duration-300">Courses</a>
+                <a href="/profile" class="mr-6 text-lg hover:text-yellow-300 transition duration-300">Profile</a>
+                <a href="/login" class="mr-6 text-lg hover:text-yellow-300 transition duration-300">Login</a>
+                <a href="/signup" class="text-lg bg-yellow-400 text-blue-800 p-2 rounded-full hover:bg-yellow-500 transition duration-300">Signup</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Overview -->
+    <div class="container mx-auto my-12 px-4">
+        <h2 class="text-3xl font-semibold text-center text-white mb-8">Your Profile</h2>
+        <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h3 class="text-2xl font-semibold mb-4">User Information</h3>
+            <p class="text-gray-700">Name: John Doe</p>
+            <p class="text-gray-700">Email: johndoe@example.com</p>
+        </div>
+
+        <h3 class="text-2xl font-semibold mt-8 mb-4 text-white">Enrolled Courses</h3>
+        <div class="space-y-6">
+            <!-- Course Card 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition duration-300">
+                <h4 class="text-xl font-semibold text-blue-800">Course Title 1</h4>
+                <div class="w-full bg-gray-300 rounded-full h-2">
+                    <div class="bg-yellow-500 h-2 rounded-full" style="width: 75%"></div>
+                </div>
+                <p class="text-sm text-gray-500">75% Completed</p>
+            </div>
+            <!-- Repeat for other courses -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-pink-700 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 E-Learning Platform. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

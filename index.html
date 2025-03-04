@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | E-Learning Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-400 to-purple-600">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-700 text-white p-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="/" class="text-3xl font-bold text-white hover:text-yellow-300 transition duration-300">E-Learning</a>
+            <div>
+                <a href="/courses" class="mr-6 text-lg hover:text-yellow-300 transition duration-300">Courses</a>
+                <a href="/profile" class="mr-6 text-lg hover:text-yellow-300 transition duration-300">Profile</a>
+                <a href="/login" class="mr-6 text-lg hover:text-yellow-300 transition duration-300">Login</a>
+                <a href="/signup" class="text-lg bg-yellow-400 text-blue-800 p-2 rounded-full hover:bg-yellow-500 transition duration-300">Signup</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Course Listings Section -->
+    <div class="container mx-auto my-12 px-4">
+        <h2 class="text-3xl font-semibold text-center text-white mb-8">Featured Courses</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Course Card 1 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                <img src="course-image.jpg" alt="Course Image" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-blue-800">Course Title 1</h3>
+                    <p class="text-gray-600 mt-2">This course will help you understand the fundamentals of web development.</p>
+                    <a href="/course/1" class="mt-4 inline-block px-6 py-2 bg-blue-600 text-white rounded-full text-lg hover:bg-blue-700 transition duration-300">Start Course</a>
+                </div>
+            </div>
+            <!-- Repeat for other courses -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-blue-700 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 E-Learning Platform. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
